@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html><head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+<title>Satellite Access in Third Generation Mobile Telecommunications</title>
+<meta name="Description"
+ content="Resource management for satellites in third generation mobile telecommunications" />
+<meta name="Keywords" content="3rd third generation UMTS FPLMTS IMT-2000 3G
+ GSM cellular CDMA Bluetooth GPRS ICO Teledesic Iridium Globalstar LEOs MEOs GEOs
+ applications WAP WML script wireless LANs WLANs mobile IP
+ resource management dynamic channel allocations DCA" />
+<meta property="og:type" content="book" />
+<meta property="og:url" content="http://rfinean.tripod.com/PhD/" />
+<meta property="og:description"
+ content="Resource management for satellites in third generation mobile telecommunications" />
+<meta property="og:title" content="Satellite Access in 3G Networks" />
+<meta property="og:image" content="http://rfinean.tripod.com/portrait.jpg" />
+<meta property="book:release_date" content="1996-05-07" />
+<meta property="book:author" content="http://rfinean.tripod.com/" />
+<meta property="book:tag" content="UMTS" />
+<meta property="book:tag" content="3G mobile network" />
+<meta property="book:tag" content="satellite" />
+<meta property="book:tag" content="network architecture" />
+<link rel="start" type="text/html" href="http://rfinean.tripod.com/">
+<link rel="stylesheet" type="text/css" href="../DE.css">
+<style type="text/css"><!--
+
+TD {font: normal 12pt "Times New Roman", Times, serif}
+DD {font-size: 10pt}
+
+H1 {font: normal 24pt "Times New Roman", Times, serif; color:black}
+H2 {font: bold 18pt Arial, Helvetica, sans-serif}
+
+--></style>
+</head>
+<body bgcolor="white" text="black" link="black" vlink="black" alink="#666600">
+<table width="595" cellspacing="7" cellpadding="0" align="CENTER"><tr align="CENTER">
+
+	<td width="25%"><p class="mb">
+		<a href="../index.htm" title="Up to my top-level résumé" rel="Index">
+		&nbsp;&nbsp;&nbsp;&nbsp;R&eacute;sum&eacute;&nbsp;&nbsp;&nbsp;&nbsp;</a></p></td>
+
+	<td width="25%"><p class="mb">
+		<a href="../skills.htm" title="See my skills">
+		&nbsp;&nbsp;&nbsp;&nbsp;Skills&nbsp;&nbsp;&nbsp;&nbsp;</a></p></td>
+
+	<td width="25%"><p class="mb">
+		<a href="../work.htm" title="See my employment track record">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p></td>
+
+	<td width="25%"><p class="mb">
+		<a href="../academic.htm" title="See my academic qualifications">
+		Qualifications</a></p></td>
+
+</tr></table><table width="595" cellspacing="0" cellpadding="7" align="CENTER">
+
+<!--			H	E	A	D	E	R			-->
+
+<tr><td>
+<center>
+
+	<p><font size="4">University<br>of Surrey</font></p>
+	<p>Centre for Satellite Engineering Research</p>
+
+<p><br><br>&nbsp;</p>
+
+	<h1>Satellite Access in FPLMTS</h1>
+	<p><font size="5">PhD Thesis</font></p>
+	<p><font size="4"><i>Robert J Finean</i></font></p>
+	<p>May 1996</p>
+
+<p>&nbsp;</p>
+</center>
+
+<h2>Review</h2>
+
+<p>This thesis demonstrated why satellite access to third generation mobile
+systems will be valuable and how the UMTS Network Architecture developed
+in Europe can support satellites and their
+spectrally efficient channel assignment schemes.
+It also predicted the need for third generation <i>applications</i> to adapt
+to the wide range of communication facilities available depending on
+their terminal's environment and for B-ISDN to have protocols enabling
+this adaptation in mobile networks.</p>
+
+<p>Original ideas included:</p>
+<ul>
+	<li>Clearly defined valuable roles that satellites will play in accessing
+		3G networks <i>(this is particularly interesting following
+		Iridium's bankruptcy then
+		<a href="http://www.businessweek.com/magazine/content/01_31/b3743089.htm"
+		   target="_new">ICO's and Globalstar's merging with
+		McCaw's cellular interests</a>)</i>
+	</li><li>Giving the FES the pivotal role of guaranteeing communications
+		with mobile terminals in a rigidly defined geographic area
+	</li><li>Developing the UMTS network architecture to allow network designers
+		the freedom to implement the FES to mobile terminals
+		communications in any way
+	</li><li>Developing the UMTS network architecture to allow FESs to control
+		handovers within their geographic service area in a pre-emptive way,
+		based on predictable satellite motion and traffic distribution
+		<i>(this is how ICO works)</i>
+	</li><li>A detailed study of the performance of DCA algorithms in these non-GEO
+		satellite networks
+		<i>(such dynamic schemes are still not deployed in systems like ICO,
+		which use more conservative spectrum planning)</i>
+	</li><li>Recognition that UMTS cannot offer 2Mbit/s service at a marketable price
+		in all environments and that UMTS applications will have to adapt
+		to varying grades of communication services during a call.
+		<i>("Teletext" versions of some websites were launched for i-Mode
+		and WAP but such rewriting of web pages for mobile channels
+		has not been a successful example of how 3G phones will interwork
+		with the desktop Internet applications that people are familiar with.
+		Even in 2001 there was still a disturbing amount of hype regarding
+		the capabilities of mobile and satellite access in the marketplace:
+		<a href="http://web.archive.org/web/20021124003740/http://www.pogouser.com/"
+			 target="_new">Pogo</a>
+		took the initiative to bridge the gap between what mobile
+		customers want from their phone/PDA and what even pre-GPRS
+		GSM networks could deliver.)</i>
+</li></ul>
+
+
+<h2>Contents</h2>
+
+<dl>
+<dt>	<a href="Main.pdf"
+	   onmouseover="window.status='28KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">
+	<dd>Summary
+	</dd><dd>Acknowledgements
+	</dd><dd>Contents
+	</dd><dd>Glossary
+	</dd></a>
+
+</dt><dt><br><a href="1Intro.pdf"
+	   onmouseover="window.status='13KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 1 Introduction</a>
+	</dt><dd>1.1. Outline of Thesis
+	</dd><dd>1.2. Original Achievements
+
+</dd><dt><br><a href="2FPLMTS.pdf"
+	   onmouseover="window.status='290KB Adobe Acrobat document may take a minute to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 2 What are FPLMTS?</a>
+	</dt><dd>2.1. Cordless, Cellular and Mobile Satellite Systems
+	</dd><dd>2.2. FPLMTS
+	</dd><dd>2.3. UPT and the IN
+	</dd><dd>2.4. Multi-Tier Air Interfaces
+	</dd><dd>2.5. Satellite Service Bandwidths
+
+</dd><dt><br><a href="3SatRole.pdf"
+	   onmouseover="window.status='250KB Adobe Acrobat document may take a minute to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 3 Role of Satellite Access</a>
+	</dt><dd>3.1. Coverage of Rural Areas
+	</dd><dd>3.2. Guaranteeing Roll-out FPLMTS Coverage
+	</dd><dd>3.3. In-fill for Low Density Population Areas
+	</dd><dd>3.4. Overflow Traffic from Terrestrial Network "Hot Spots"
+	</dd><dd>3.5. Satellite Paging for Terrestrial Networks
+	</dd><dd>3.6. Summary of Satellite Roles
+
+</dd><dt><br><a href="4Propose.pdf"
+	   onmouseover="window.status='220KB Adobe Acrobat document may take a minute to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 4 FPLMTS Space Segment</a>
+	</dt><dd>4.1. FPLMTS Time Scale
+	</dd><dd>4.2. Satellite Coverage
+	</dd><dd>4.3. Orbits
+	</dd><dd>4.4. Spot Beams
+	</dd><dd>4.5. Distribution of Switching and Control
+	</dd><dd>4.6. Capacities, Services and Costs
+
+</dd><dt><br><a href="5NetArch.pdf"
+	   onmouseover="window.status='250KB Adobe Acrobat document may take a minute to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 5 UMTS Network Architecture</a>
+	</dt><dd>5.1. The UMTS Network Architecture
+	</dd><dd>5.2. Justification
+	</dd><dd>5.3. Operators in Satellite Access
+	</dd><dd>5.4. Managing non-GEO Satellite Motion
+	</dd><dd>5.5. FES Coverage
+	</dd><dd>5.6. Examples of FES Coverage
+	</dd><dd>5.7. Conclusions for Satellites
+
+</dd><dt><br><a href="6MobMan.pdf"
+	   onmouseover="window.status='90KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 6 UMTS Mobility Management</a>
+	</dt><dd>6.1. Terminal and User Registration
+	</dd><dd>6.2. Location Update
+	</dd><dd>6.3. Attach/Detach
+	</dd><dd>6.4. Call Set-up
+	</dd><dd>6.5. Satellite Handover
+
+</dd><dt><br><a href="7ChAlloc.pdf"
+	   onmouseover="window.status='3.2MB Adobe Acrobat document may take 5-10mins to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 7 Satellite Channel Assignment</a>
+	</dt><dd>7.1. Satellite FPLMTS and Cellular Radio
+	</dd><dd>7.2. FDMA, TDMA and CDMA
+	</dd><dd>7.3. Satellite Channel Assignment
+	</dd><dd>7.4. Need for Frequency Guard Bands
+	</dd><dd>7.5. Design Objectives
+	</dd><dd>7.6. Satellite System Model
+	</dd><dd>7.7. Fixed Frequency Re-use Planning
+	</dd><dd>7.8. Dynamic Channel Assignment
+	</dd><dd>7.9. DCA Aided by Bulletin Boards
+	</dd><dd>7.10. Hybrid Schemes
+	</dd><dd>7.11. DCA as a Means of Enabling Band Sharing Between Networks
+
+</dd><dt><br><a href="8Apps.pdf"
+	   onmouseover="window.status='125KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 8 UMTS Application Support</a>
+	</dt><dd>8.1. Voice Telephony in Today's Networks
+	</dd><dd>8.2. Layered Communications Protocols
+	</dd><dd>8.3. Second Generation Facsimile Support
+	</dd><dd>8.4. ISDN
+	</dd><dd>8.5. B-ISDN
+	</dd><dd>8.6. Mobile Multimedia
+	</dd><dd>8.7. Future Work
+
+</dd><dt><br><a href="9Concs.pdf"
+	   onmouseover="window.status='10KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Chapter 9 Conclusions</a>
+	</dt><dd>9.1. Satellite Radio Interfaces
+	</dd><dd>9.2. Standard UMTS Network Architecture
+	</dd><dd>9.3. Terminal's Applications' User Interfaces
+	</dd><dd>9.4. Towards the Integrated Broadband Communications Network
+
+</dd><dt><br><a href="Refs.pdf"
+	   onmouseover="window.status='16KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">References
+<dt>By the Same Author
+	</dt></a>
+
+</dt><dt><br><a href="ADCASim.pdf"
+	   onmouseover="window.status='400KB Adobe Acrobat document may take a minute to load'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Appendix A DCA Simulation Model</a>
+	</dt><dd>A.1. Aims
+	</dd><dd>A.2. Model Employed
+	</dd><dd>A.3. Simulation Results
+	</dd><dd>A.4. Summary of Results
+
+</dd><dt><br><a href="B5Retry.pdf"
+	   onmouseover="window.status='40KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Appendix B Single Channel Receiver DCA Simulation</a>
+	</dt><dd>B.1. System Capacity
+	</dd><dd>B.2. Handover Interruptions
+
+</dd><dt><br><a href="C20Retry.pdf"
+	   onmouseover="window.status='40KB Adobe Acrobat document'; return true"
+	   onmouseout="window.status=''; return true"
+	   target="_new">Appendix C Dual Channel Receiver DCA Simulation</a>
+	</dt><dd>C.1. System Capacity
+	</dd><dd>C.2. Handover Delays
+</dd></dl>
+
+<h2>Publications</h2>
+
+<ul style="font-size: 10pt">
+	<li>El-Hoiydi, Amre, and Finean, Robert J:
+		<i><a href="http://www241.csem.ch/~aeh/papers/Elh96_LocManSatUmts_ICUPC.pdf"
+			target="_new">Location Management for Satellite UMTS</a></i>.
+		<a href="http://www.comsoc.org/confs/"
+		   target="_new">IEEE</a> International Conference
+		on Universal Personal Communications,
+		29 September ~ 2 October 1996, Cambridge, Massachusetts, USA.
+
+	</li><li>Finean, Robert J: <i>Mobile Satellite Communications Proposals</i>.
+		<a href="http://www.btexact.com/docimages/71189/71189.pdf"
+		   target="_new">BT Technology Journal volume 14 number 3</a>, July 1996.
+
+	</li><li>Finean, Robert J, and El-Hoiydi, Amre:
+		<i><a href="http://www241.csem.ch/~aeh/papers/Fin96_SatUmtsNetworkArch_IeeConf.pdf"
+			target="_new">Satellite UMTS Network Architecture</a></i>.
+		Fifth International Conference on Satellite Communications and Navigation,
+		London, 13~15 May 1996, p151~155.
+
+	</li><li>Members of Race Monet RAS2:
+		<i>Network and Functional Support of Satellite Access (final)</i>.
+		December 1995, CEC Report R2066/BELL/RAS2/DS/P/112/b1.
+
+	</li><li>Finean, Robert J, Polymeros, Dimitris, El-Hoiydi, Amre,
+		Da Costa, Francisco, Dinis, Manuel, Saïdi, Abdelcrime, and Vazvan, Behruz:
+		<i><a href="http://www241.csem.ch/~aeh/papers/Fin95_ImpactOfSatOnUmts_RaceMobileSummit.pdf"
+			target="_new">Impact of Satellites on the UMTS Network</a></i>.
+		Race Mobile Summit, Cascais, Portugal, 22~24 November 1995, p388~392.
+
+	</li><li>Finean, Robert J:
+		<i>Channel Assignment in Mobile Satellite Networks</i>.
+		<a href="http://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7487&amp;isYear=1994"
+		   target="_new">IEE Colloquium on
+		Spectrally Efficient Techniques for Satellite Communications</a>,
+		30 March 1994, p7/1~7/4.
+</li></ul>
+
+</td></tr>
+
+<!--			F	O	O	T	E	R			-->
+
+</table><table width="595" cellspacing="7" cellpadding="0" align="CENTER"><tr bgcolor="#006600">
+
+	<td width="7%" align="CENTER"><p class="nb">
+		<a href="../academic.htm"
+		   title="Back to my academic qualifications">&lt;-</a></p></td>
+
+	<td width="7%" align="CENTER"><p class="nb">
+		<a href="../index.htm"
+		   title="Up to my top-level résumé">&nbsp;^&nbsp;</a></p></td>
+
+	<td width="86%" align="RIGHT" valign="BOTTOM"><address>
+		&copy; 2001 Dr Robert J Finean</address></td>
+
+</tr><tr>
+
+	<td colspan="3" class="del"><br /><br />
+		<p class="des"><strong>D</strong>&nbsp;SIGN
+		<em>v. create something beautiful</em></p>
+		<p class="eng"><strong>E</strong>NGINEERING
+		<em>v. create something innovative</em></p><hr />
+	</td>
+
+</tr></table>
+<script type="text/javascript"><!--
+var _gaq = [['_setAccount', 'UA-31212419-1'], ['_trackPageview']];
+(function(ga, s) {
+  	ga.async = true;
+  	ga.src = 'http://www.google-analytics.com/ga.js';
+  	s.parentNode.insertBefore(ga, s);
+}(
+  	document.createElement('script'),
+  	document.getElementsByTagName('script')[0]
+));
+//--></script>
+</body></html>

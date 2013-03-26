@@ -1,0 +1,52 @@
+/* TD is the base style */
+
+td {font: normal 10pt Arial, Helvetica, sans-serif}
+strong {font: bold 11pt Arial, Helvetica, sans-serif}
+em {font: italic 10pt Arial, Helvetica, sans-serif}
+
+
+/* Heading styles */
+
+h1 {font: italic 36pt "Times New Roman", Times, serif; color:#060}
+h2 {font: normal 24pt "Times New Roman", Times, serif; color:#060}
+h3 {font: normal 16pt Arial, Helvetica, sans-serif; color:#060}
+
+
+/* Copyright box */
+
+address {font: bold 10pt Arial, Helvetica, sans-serif;
+         color:#C90; padding:2pt}
+address a {color:#C90}
+
+
+/* Menu button (mb) & pressed (mbp) and Navigation button (nb) classes */
+
+.mb, .mbp {border:2pt outset #FC0; background-color:#060; text-align:center;
+           font: bold 12pt Tahoma, Arial, Helvetica, sans-serif; color:gray;
+           width:104pt; padding:3pt; margin:0pt}
+.mb a {text-decoration:none; color:#C90}
+.mbp {border:2pt inset #C90; color:#FFF}
+
+.nb {border:2pt outset #FC0; background-color:#060; text-align:center;
+     font: bold 16pt Tahoma, Arial, Helvetica, sans-serif; color:gray;
+     width:30pt; padding:0pt; margin:0pt}
+.nb a {text-decoration:none; color:#C90}
+
+
+/* DE logo formatting */
+
+.del {font: normal 18pt/38pt "Times New Roman", Times, serif; color:#060}
+.del strong {font: normal 48pt/38pt "Times New Roman", Times, serif}
+.del em {font: italic 12pt/38pt "Times New Roman", Times, serif; color:gray}
+.des {position:relative; left:100pt}
+.eng {position:relative; top:-49pt; left:112pt}
+
+
+/* Interactive link highlights (not Netscape 4) */
+
+a:active, a:hover {color:#FC0; background-color:#060}
+a {-webkit-transition:.3s ease-in;  
+   -moz-transition:.3s ease-in;  
+   -ms-transition:.3s ease-in;  
+   -o-transition:.3s ease-in;  
+   transition:.3s ease-in;}
